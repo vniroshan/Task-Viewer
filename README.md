@@ -96,6 +96,7 @@ ordering so newest tasks appear first.
 Bootstrap 5 provides the responsive grid and utility classes. 
 
 ### What I would improve with more time
+- **User authentication** - add a `users` table with hashed passwords (`password_hash()`), session-based login/logout, and per-user task isolation so each user only sees their own tasks.
 - **Inline editing** - double-click a task title to edit it in place.
 - **Drag-to-reorder** - a `sort_order` column and a JS drag handler would let users prioritise tasks manually.
 - **Due dates & priorities** - small schema additions that would make the tool genuinely useful.
